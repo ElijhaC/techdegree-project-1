@@ -109,7 +109,14 @@ h1 {
   content: ", ";
   font-style: normal;
 }
+.tag {
+  font-style: italic;
+}
 
+.tag:before {
+  content: ", ";
+  font-style: normal;
+}
 .year:before {
   content: ", ";
   font-style: normal;
